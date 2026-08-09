@@ -140,8 +140,8 @@ def a_star_search(start, goal):
                 heapq.heappush(queue, (new_f, new_g, neighbor, path + [neighbor]))
     return None, 0
 
-start_city = 'Vaslui'
-goal_city = 'Arad'
+start_city = 'Arad'
+goal_city = 'Vaslui'
 
 print(f"--- การค้นหาเส้นทางจาก {start_city} ไป {goal_city} ---\n")
 

@@ -1,46 +1,46 @@
---- การค้นหาเส้นทางจาก Vaslui ไป Arad ---
+--- การค้นหาเส้นทางจาก Arad ไป Vaslui ---
 
 1. Breadth First Tree Search
-Path: Vaslui -> Urziceni -> Bucharest -> Fagaras -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
 Cost: 677
 
 2. Depth First Tree Search
-Path: Vaslui -> Iasi -> Neamt -> Iasi -> Neamt -> Iasi -> Neamt -> Iasi -> Neamt -> Iasi -> Neamt -> Iasi -> Neamt -> Iasi -> Vaslui -> Urziceni -> Bucharest -> Pitesti -> Rimnicu Vilcea -> Sibiu -> Arad
-Cost: 1873
+Path: Arad -> Timisoara -> Lugoj -> Mehadia -> Drobeta -> Craiova -> Pitesti -> Bucharest -> Urziceni -> Vaslui
+Cost: 960
 
 3. Breadth First Search (Graph)
-Path: Vaslui -> Urziceni -> Bucharest -> Fagaras -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
 Cost: 677
 
 4. Depth First Graph Search
-Path: Vaslui -> Urziceni -> Bucharest -> Pitesti -> Craiova -> Rimnicu Vilcea -> Sibiu -> Oradea -> Zerind -> Arad
-Cost: 989
+Path: Arad -> Timisoara -> Lugoj -> Mehadia -> Drobeta -> Craiova -> Pitesti -> Bucharest -> Urziceni -> Vaslui
+Cost: 960
 
 5. Best First Graph Search
-Path: Vaslui -> Urziceni -> Bucharest -> Pitesti -> Rimnicu Vilcea -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
 Cost: 645
 
 6. Uniform Cost Search
-Path: Vaslui -> Urziceni -> Bucharest -> Pitesti -> Rimnicu Vilcea -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
 Cost: 645
 
 7. Depth Limited Search (Limit = 10)
-Path: Vaslui -> Urziceni -> Bucharest -> Fagaras -> Sibiu -> Arad
-Cost: 677
+Path: Arad -> Zerind -> Oradea -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
+Cost: 834
 
 8. Iterative Deepening Search
-Path: Vaslui -> Urziceni -> Bucharest -> Fagaras -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
 Cost: 677
 
 9. Greedy Best First Search
-Path: Vaslui -> Urziceni -> Bucharest -> Pitesti -> Rimnicu Vilcea -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
 Cost: 645
 
 10. A*-Search
-Path: Vaslui -> Urziceni -> Bucharest -> Pitesti -> Rimnicu Vilcea -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
 Cost: 645
 
 11. Recursive Best First Search (RBFS)
-Path: Vaslui -> Urziceni -> Bucharest -> Pitesti -> Rimnicu Vilcea -> Sibiu -> Arad
+Path: Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
 Cost: 645
 
